@@ -1,0 +1,45 @@
+body{
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+}
+/**
+ * Site header
+ */
+.site-header {
+
+  min-height: $spacing-unit * 1.865;
+  border-bottom: 1px solid;
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  @include relative-font-size(4);
+  font-weight: 400;
+  margin-bottom: 0;
+  font-family: $special-font-family;
+  float: left;
+  padding: $spacing-unit;
+
+ 
+}
+.site-title:hover{
+  font-style: normal;
+}
+.site-title span{
+  font-size: $base-font-size * 1.1;
+}
+
+//SOCIAL
+
+.social-list a{
+  display: inline-block;
+  margin:0 $spacing-unit * 0.5;
+}
+
+#social{
+  border-bottom: 1px solid;
+  padding: $spacing-unit
+}
+//  @include media-query ($on-palm) {
+

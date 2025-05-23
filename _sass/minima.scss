@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+@font-face {
+  font-family: "Phase-CGX";
+  src: url("../assets/fonts/Phase-CGX_0-74-16.woff2") format("woff2");
+}
+
+$base-font-family: Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$special-font-family: "Phase-CGX", sans-serif;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     10px !default;
+
+$text-color:       #964B00 !default;
+$background-color: #DBEEFF !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
