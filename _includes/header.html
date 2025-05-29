@@ -5,5 +5,12 @@
 
 </header>
 <div id="social">
+
   {%- include social.html -%}
+  {% if page.url == "/" %}
+      {% assign work_by_cat = site.data.works | group_by:"category" %}
+      {% for cat in work_by_cat %}
+       <div class="filter"> {{cat.name}}</div>
+      {% endfor %}
+  {% endif %}
 </div>
