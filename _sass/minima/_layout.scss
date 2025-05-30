@@ -99,11 +99,11 @@ footer{
 
 #social{
   border-bottom: 1px solid;
-  padding: calc($spacing-unit/2) $spacing-unit;
+  padding: $spacing-unit/2 $spacing-unit;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: calc(44px - $spacing-unit);
+  min-height: 44px - $spacing-unit;
 }
 //FILTERS
 #filters{
@@ -116,7 +116,7 @@ footer{
   cursor: pointer;
   border: 1px solid;
   border-radius: 100%;
-  padding: calc($spacing-unit/2);
+  padding: $spacing-unit/2;
 }
 .filter:hover, .filter.selected{
   background-color: $text-color;
