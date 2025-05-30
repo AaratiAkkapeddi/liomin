@@ -74,6 +74,14 @@ indentation matters with yaml. For example, in the above code, the fact that `- 
 ## Updating Upcoming
 
 1. go to _data/upcoming.yml
+2. Fairly straightforward. Edit between the quotation marks i.e.
+```
+text: "edit this"
+```
+
+## Updating Collaborations
+
+1. go to _data/collaborations.yml
 2. Add/remove/edit the text/link pairs following the pattern...
 ```
 - text: "→ Comic Practice (archive)"
@@ -85,14 +93,6 @@ indentation matters with yaml. For example, in the above code, the fact that `- 
 - text: "→ Unnatural World (The Nib)"
   link: "https://thenib.com/exhibiting-extinction/"
 ...
-```
-
-## Updating Collaborations
-
-1. go to _data/collaborations.yml
-2. Fairly straightforward. Edit between the quotation marks i.e.
-```
-text: "edit this"
 ```
 
 ## Updating radio lio
