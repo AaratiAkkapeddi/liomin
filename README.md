@@ -35,7 +35,7 @@ _You'll only be using markdown when you are creating one-off pages like `/beatin
 
 When you create a new .md file, you should make sure that you are creating it in the root folder and not inside a subfolder like _data or _layouts. 
 
-For writing in markdown, I like this [guide]("https://www.markdownguide.org/cheat-sheet/]").
+For writing in markdown, I like this [guide]("https://www.markdownguide.org/cheat-sheet/").
 You can also just write plain old html in your markdown file and that will work too. 
 
 Jekyll uses what's called "frontmatter" at the top of every markdown file to store metadata like the page title, url, etc (that's a term from publishing no?). So the top of your markdown file should look like this:
