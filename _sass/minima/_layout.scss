@@ -161,7 +161,13 @@ footer{
 }
 .work-cat details summary::marker{
   content: "";
+  display: none;
 }
+details summary::-webkit-details-marker{
+  content: "";
+  display: none;
+}
+
 .work-cat details{
   cursor: pointer;
   margin-bottom: $spacing-unit*1.4;
