@@ -8,9 +8,12 @@
 
   {%- include social.html -%}
   {% if page.url == "/" %}
+  <div id="filters">
       {% assign work_by_cat = site.data.works | group_by:"category" %}
       {% for cat in work_by_cat %}
-       <div class="filter"> {{cat.name}}</div>
+       <div id="{{cat.name | replace: ' ', '-'}}" class="filter"> {{cat.name}}</div>
       {% endfor %}
+      </div>
   {% endif %}
 </div>
+

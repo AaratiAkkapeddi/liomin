@@ -8,6 +8,7 @@
   </details>
  </div>
  <div id="upcoming">
+  <h4>UPCOMING:</h4>
   {{site.data.upcoming.text}}
  </div>
  <div id="radio-lio">
@@ -20,3 +21,47 @@
  </div>
 
 </footer>
+  {% if page.url == "/" %}
+    <script type="text/javascript">
+      let filters = document.querySelectorAll(".filter");
+      let selected = [];
+      let wrapper = document.querySelector("main > .wrapper");
+      filters.forEach((filter)=>{
+        filter.addEventListener("click", function(){
+          if(this.classList.contains("selected")){
+            this.classList.remove("selected");
+            let index = selected.indexOf(filter.id);
+            if (index !== -1) {
+              selected.splice(index, 1);
+            }
+          }else{
+            this.classList.add("selected");
+            selected.push(filter.id)
+          }
+
+          checkFilters()
+        })
+      })
+      function checkFilters(){
+        if(selected.length > 0){
+          if(!wrapper.classList.contains("filtering")){
+              wrapper.classList.add("filtering")
+          }
+          selected.forEach((filter) => {
+            let cat = document.querySelector(".work-cat."+ filter);
+            if(!cat?.classList.contains("selected")){
+                  cat?.classList.add("selected");
+            }
+          })
+        }else{
+          if(wrapper.classList.contains("filtering")){
+              wrapper.classList.remove("filtering")
+          }
+          let cats = document.querySelectorAll(".work-cat");
+          cats.forEach((cat)=>{
+            cat.classList.remove("selected");
+          })
+        }
+      }
+    </script>
+  {% endif %}

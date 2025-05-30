@@ -5,11 +5,13 @@
 layout: default
 ---
 
-<ul>
+<h4 class="selected-work">SELECTED WORK:</h4>
 {% assign work_by_cat = site.data.works | group_by:"category" %}
 
 {% for cat in work_by_cat %}
-    <h4> {{cat.name}}</h4>
+<div class="work-cat {{cat.name | replace: ' ', '-'}}">
+    <h4> {{cat.name | upcase}}</h4>
+    <div class="inner">
 {% for work in cat.items %}
 
   <details>
@@ -21,6 +23,9 @@ layout: default
 
 
   </details>
+
 {% endfor %}
+</div>
+  </div>
+
 {% endfor %}
-</ul>

@@ -8,7 +8,8 @@
 
 $base-font-family: Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $special-font-family: "Phase-CGX", sans-serif;
-$base-font-size:   16px !default;
+$base-font-size:   18px !default;
+$mobile-font-size: 16px;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -23,7 +24,7 @@ $table-text-align: left !default;
 // Width of the content area
 $content-width:    800px !default;
 
-$on-palm:          600px !default;
+$on-palm:          900px !default;
 $on-laptop:        800px !default;
 
 // Use media queries like this:
@@ -33,6 +34,7 @@ $on-laptop:        800px !default;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
