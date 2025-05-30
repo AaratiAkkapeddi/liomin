@@ -112,6 +112,7 @@ footer{
   }
 }
 .filter{
+  transition: background 0.2s;
   display: inline-block;
   cursor: pointer;
   border: 1px solid;
@@ -167,7 +168,13 @@ details summary::-webkit-details-marker{
   content: "";
   display: none;
 }
-
+@keyframes open {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+details[open] summary~* {
+  animation: open 0.8s
+}
 .work-cat details{
   cursor: pointer;
   margin-bottom: $spacing-unit*1.4;
