@@ -116,6 +116,7 @@ footer{
   cursor: pointer;
   border: 1px solid;
   border-radius: 100%;
+  margin-left: $spacing-unit;
   padding: $spacing-unit/2;
 }
 .filter:hover, .filter.selected{

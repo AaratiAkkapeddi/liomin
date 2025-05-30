@@ -1,5 +1,8 @@
 # Lio Min
 
+## general tips
+in .yml files, try to use consistent indentation and don't use multiple lines for one field (this will be read as two multiple fields). 
+
 ## Updating work
 
 1. go to _data/work.yml
@@ -36,3 +39,5 @@ permalink: /add_link_you_want_here/
 ---
 ```
 3. After this frontmatter you can start writing your own [markdown]("https://www.markdownguide.org/cheat-sheet/") for the content of the page.
+
+
