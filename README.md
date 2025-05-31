@@ -12,7 +12,7 @@ link: "https://somewhere.com"
 text: "She said "maybe""
 ```
 
-So instead you could use single quotes like so...
+So instead you could use single quotes to wrap the text and double quotes within the text itself like so...
 
 ```
 link: "https://somewhere.com"
