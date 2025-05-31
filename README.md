@@ -5,7 +5,7 @@ in .yml files, try to use consistent indentation and wrap values in quotation ma
 
 **Edge Cases:**
 
-Sometimes you may have quotations as part of the text itself. For example, hypothetically if a link's text was to be _She said "maybe"_ wrapping this value in quotes like below would cause an error:
+Sometimes you may have quotations as part of the text itself. For example, hypothetically if a link's text was to be _She said "maybe"_ wrapping this value in quotes like below would cause an error because the same double quotes are being used within and around the text:
 
 ```
 link: "https://somewhere.com"
