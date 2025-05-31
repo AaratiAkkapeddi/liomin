@@ -1,6 +1,6 @@
 # Lio Min
 
-### general yaml tips
+## General yaml tips
 in .yml files, try to use consistent indentation and wrap values in quotation marks (i.e. `title: "cool title"`). 
 
 **Edge Cases:**
@@ -29,7 +29,7 @@ text: '<a href="https://hello.com">hello world</a>
 ```
 Notice I also am using single quotes in that example because the `href` uses double quotes already and we want to be able to distinguish between which quotes are wrapping the entire text value vs which ones are part of the text value itself.
 
-### general markdown tips
+## General markdown tips
 
 _You'll only be using markdown when you are creating one-off pages like `/beatingheartbeats`_
 
@@ -59,8 +59,8 @@ and then after that you can start writing your markdown. Take a look at `/beatin
 
 ```
 - title: "Title of your project"
-  category: "Category name (be wary of capitals, try to be consistent (i.e. Books vs books))"
-  body: (you can add as many description/link pairs as you need per project)
+  category: "Category name"
+  body: 
   - description:  "text to show" 
     link: "https://link_to_go_to.com"
   - description:  "text to show" 
@@ -69,7 +69,10 @@ and then after that you can start writing your markdown. Take a look at `/beatin
     link: "https://link_to_go_to.com"
 
 ```
-indentation matters with yaml. For example, in the above code, the fact that `- description` is indented further than `body` indicates that `- description` is nested within `body`. (Members of a list in yaml start with the `-` symbol).
+Further tips:
+- Be mindful of category formatting. For example, "books" and "Books" might be read as two different categories.
+- You can add as many description/link pairs as you want to the body (just make sure to follow the formatting in terms of indentation and adding that `-` in front of `description`)
+- indentation matters with yaml. For example, in the above code, the fact that `- description` is indented further than `body` indicates that `- description` is nested within `body`. (objects that are part of a list in yaml start with the `-` symbol).
 
 ## Updating Upcoming
 
@@ -98,7 +101,7 @@ text: "edit this"
 ## Updating radio lio
 
 1. go to _data/radio_lio.yml
-2. Fairly straightforward. Edit between the quotation marks i.e. But be mindful of which quotation marks are being used inside the text vs wrapping around it.
+2. Fairly straightforward. Edit between the quotation marks i.e. _But be mindful of which quotation marks are being used inside the text vs wrapping around it._
 
 ```
 text: '#RADIOLIO <br> <iframe scrolling="no" style="width:100%!important;border:1px #ccc solid !important;" src="https://buttondown.email/RADIOLIO?as_embed=true"></iframe>'
@@ -107,7 +110,7 @@ text: '#RADIOLIO <br> <iframe scrolling="no" style="width:100%!important;border:
 ## Updating colophon
 
 1. go to _data/colophon.yml
-2. Fairly straightforward. Edit between the quotation marks i.e. But be mindful of which quotation marks are being used inside the text vs wrapping around it.
+2. Fairly straightforward. Edit between the quotation marks i.e. _But be mindful of which quotation marks are being used inside the text vs wrapping around it._
 
 ```
 text: "⬆️<br>Sign up for the RADIOLIO newsletter.<br><br>LIOMIN.com is the work of Aarati Akkapeddi.<br><br>Thanks for reading :^) Safe travels & good hunting on the digital tides..."
@@ -116,7 +119,7 @@ text: "⬆️<br>Sign up for the RADIOLIO newsletter.<br><br>LIOMIN.com is the w
 ## Updating contact info
 
 1. go to _data/contact.yml
-2. Fairly straightforward. Edit between the quotation marks i.e. But be mindful of which quotation marks are being used inside the text vs wrapping around it.
+2. Fairly straightforward. Edit between the quotation marks i.e. _But be mindful of which quotation marks are being used inside the text vs wrapping around it._
 
 ```
 text: '<a target="_blank" href="mailto:liomin@protonmail.com">Email</a> / 
