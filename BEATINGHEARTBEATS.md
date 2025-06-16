@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Beating Heart Beats
-permalink: /beatingheartbeats/
+title: Beating Heart Beats (all-caps)
+permalink: /BEATINGHEARTBEATS/
 ---
 
 [BEATING HEART BABY ON SALE NOW]("https://us.macmillan.com/books/9781250819093/beatingheartbaby")
