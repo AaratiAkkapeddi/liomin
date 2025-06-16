@@ -10,7 +10,7 @@ permalink: /theloveclub/
 
 <h2><strong>TLC playlist:</strong></h2>
 Tracklist:
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7fN8YXLkPelgoxqeCIqwfM?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:1px" src="https://open.spotify.com/embed/playlist/7fN8YXLkPelgoxqeCIqwfM?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 <h2>⟢ <strong>REVIEWS</strong></h2>
 
