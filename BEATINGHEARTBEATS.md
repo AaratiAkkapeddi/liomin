@@ -4,7 +4,7 @@ title: Beating Heart Beats (all-caps)
 permalink: /BEATINGHEARTBEATS/
 ---
 
-<h1>[BEATING HEART BABY ON SALE NOW]("https://us.macmillan.com/books/9781250819093/beatingheartbaby")</h1>
+[BEATING HEART BABY ON SALE NOW]("https://us.macmillan.com/books/9781250819093/beatingheartbaby")
 
 <h3>♫⋆｡♪ ₊˚♬ ﾟ.</h3>
 
