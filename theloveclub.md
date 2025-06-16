@@ -14,9 +14,9 @@ Tracklist:
 
 <h2>⟢ <strong>REVIEWS</strong></h2>
 
-<b><a href="https://www.kirkusreviews.com/book-reviews/lio-min/beating-heart-baby/#review-body">Kirkus Reviews</a></b>
+<b><a href="https://www.kirkusreviews.com/book-reviews/lio-min/the-love-club/">Kirkus Reviews</a></b>
 
-<b><a href="https://www.publishersweekly.com/978-1-250-819093">Publishers Weekly</a></b>
+<b><a href="https://www.publishersweekly.com/9781250359827">Publishers Weekly</a></b>
 
 <h3>⋆ ˚ᯓ★ ˚⋆</h3>
 
