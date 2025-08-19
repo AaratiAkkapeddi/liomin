@@ -4,7 +4,7 @@ title: The L.O.V.E. Club
 permalink: /theloveclub/
 ---
 
-<h1><a href="https://us.macmillan.com/books/9781250359827/theloveclub" target="_blank">THE L.O.V.E. CLUB AVAILABLE FOR PRE-ORDER NOW</a></h1>
+<h1><a href="https://us.macmillan.com/books/9781250359827/theloveclub" target="_blank">THE L.O.V.E. CLUB ON SALE NOW</a></h1>
 
 <h3>⋆ ˚ᯓ★ ˚⋆</h3>
 
