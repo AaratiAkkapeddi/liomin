@@ -18,7 +18,7 @@ Tracklist:
 
 <b><a href="https://www.publishersweekly.com/9781250359827">Publishers Weekly</a></b>
 
-<b><a href="https://www.booklistonline.com/products/9810044" target="_blank">Booklist</a></b>
+<b><a href="https://www.booklistonline.com/products/9810044">Booklist</a></b>
 
 <h3>⋆ ˚ᯓ★ ˚⋆</h3>
 
