@@ -19,5 +19,3 @@ permalink: /BEATINGHEARTBEATS/
 <h2><strong>Suwa POV playlist:</strong></h2>
 
 <iframe style="border-radius:1px" src="https://open.spotify.com/embed/playlist/4stG8gBgnPcezEImbaJM9z?utm_source=generator&theme=0" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-
